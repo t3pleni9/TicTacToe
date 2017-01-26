@@ -4,7 +4,8 @@
   "description": "Tic tac toe game engine",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test:single": "istanbul cover -x *Spec.js _mocha -- -R spec test/*",
+    "test": "mocha -- test/*.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/t3pleni9/TicTacToe/issues"
   },
-  "homepage": "https://github.com/t3pleni9/TicTacToe#readme"
+  "homepage": "https://github.com/t3pleni9/TicTacToe#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
 }
