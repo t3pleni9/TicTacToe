@@ -1,0 +1,22 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "Tic tac toe game engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t3pleni9/TicTacToe.git"
+  },
+  "keywords": [
+    "TicTacToe"
+  ],
+  "author": "Justin Jose",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/t3pleni9/TicTacToe/issues"
+  },
+  "homepage": "https://github.com/t3pleni9/TicTacToe#readme"
+}
